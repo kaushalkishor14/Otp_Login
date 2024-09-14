@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <div className='text-red-200 font-bold text-4xl'>
-        Login With Your Phone-Number
-        <div className='mt-8'>
+      <div className='text-red-200 font-bold text-4xl items-center'>
+        Login With Your Phone
+        <div className='mt-8 flex justify-center'>
           <OtpFrom/>
         </div>
        </div>

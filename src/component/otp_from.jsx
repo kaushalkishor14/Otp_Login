@@ -32,7 +32,7 @@ function OtpFrom() {
   };
 
   return (
-    <div className="text-black flex justify-center flex-col ">
+    <div className="text-black flex justify-center flex-col border shadow-lg p-14 w-1/2 items-center">
       {!otp ? (
         <form onSubmit={handleSubmit}>
           <input
